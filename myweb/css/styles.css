@@ -14,7 +14,6 @@
   --color-border: #D8DCE1;
 }
 
-/* Element selector: applies to every element of this type */
 * {
   box-sizing: border-box;
 }
@@ -34,7 +33,6 @@ h1, h2, h3 {
   line-height: 1.25;
 }
 
-/* ---------- Header & nav ---------- */
 header {
   background-color: var(--color-navy);
   color: #FFFFFF;
@@ -78,7 +76,6 @@ nav a:focus {
   outline: none;
 }
 
-/* ---------- Layout ---------- */
 main {
   max-width: 800px;
   margin: 0 auto;
@@ -95,7 +92,6 @@ main {
   border-radius: 6px;
 }
 
-/* Id selector: styling unique to one section */
 #contact {
   background-color: #FBF7EE;
   border-color: var(--color-gold);
@@ -107,7 +103,6 @@ h2 {
   margin-top: 0;
 }
 
-/* ---------- Lists ---------- */
 ul, ol {
   padding-left: 1.4rem;
 }
@@ -116,7 +111,6 @@ li {
   margin-bottom: 0.4rem;
 }
 
-/* ---------- Photo gallery ---------- */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -144,7 +138,6 @@ li {
   color: var(--color-muted);
 }
 
-/* ---------- Media ---------- */
 video, audio {
   max-width: 100%;
   height: auto;
@@ -157,7 +150,6 @@ video, audio {
   font-size: 0.95rem;
 }
 
-/* ---------- Table ---------- */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -186,7 +178,7 @@ tbody tr:nth-child(even) {
   background-color: var(--color-bg);
 }
 
-/* ---------- Form ---------- */
+
 .form-row {
   margin-bottom: 1rem;
   display: flex;
@@ -230,7 +222,7 @@ button[type="submit"]:focus {
   background-color: #A17722;
 }
 
-/* ---------- Footer ---------- */
+
 footer {
   text-align: center;
   padding: 1.5rem;
@@ -238,7 +230,6 @@ footer {
   font-size: 0.85rem;
 }
 
-/* ---------- Responsive: narrow / phone-like widths ---------- */
 @media (max-width: 480px) {
   nav ul {
     flex-direction: column;
